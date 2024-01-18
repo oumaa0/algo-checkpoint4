@@ -1,6 +1,6 @@
 FUNCTION palindrome(str:STRING,i:INTEGER) : BOOLEAN
 VAR
-    j : INTEGER ;
+    i,j : INTEGER ;
 BEGIN
 FOR i FROM 0 TO str.length -1 STEP 1  DO
     
